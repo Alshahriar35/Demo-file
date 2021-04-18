@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			max-height: 900px;
+		}
+		table{
+			border: 4px solid black;
+			width: 33%;
+			margin: auto;
+		}
+		table, th, td{
+			border-collapse: collapse;
+			text-align: center;
+		}
+		#foot{
+            line-height: 3em;
+            text-align: center;
+            vertical-align: middle;
+		}
+		#hr.foot{
+			position: absolute;
+			bottom: 3em;
+			width: 100%;
+			margin: 1px 0;
+		}
+		.head{
+			/*position: absolute;
+			top: 0;
+			width: 100%;
+			line-height: 3em;
+			text-align: center;
+			vertical-align: middle;*/
+		}
+		#hr.head{
+		/*	position: absolute;
+			top: 3em;
+			width: 100%;
+			margin: 1px 0;*/
+		}
+		p{
+	/*	 max-height: 800px;*/
+		}
+	/*	div.foot{
+			display: block;	*/
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">	
+	 <div id="header">	
+	 	<header class="head">Formation of Table layout</header>
+	<hr class="head" id="hr"><br>	<br> <br>
+	 </div>
+	<div id="content">	
+	 <table>
+		<caption>A generic table</caption>
+		<colgroup>
+			<col span="2" style="background-color: red">
+			<col span="2" style="background-color: yellow">
+		</colgroup>
+		<thead>
+		 <tr>
+			<th>Serial no</th>
+			<th>Item</th>
+			<th>colour</th>
+			<th>amount</th>
+		 </tr>
+		</thead>
+		<tbody>
+		 <tr>
+			<td>1</td>
+			<td>shirt</td>
+			<td>red</td>
+			<td>3</td>
+		 </tr>
+		</tbody>
+		<tbody>
+		 <tr>
+			<td>2</td>
+			<td>Pants</td>
+			<td>blue</td>
+			<td>6</td>
+		 </tr>
+		</tbody>
+		<t>
+			<td>x</td>
+			<td>total</td>
+			<td>amount</td>
+			<td>9</td>
+		 </tr>
+		</tfoot>
+	 </table>
+     <hr class="foot" id="hr">
+    <div>
+ <div id="footer">
+  <footer class="foot" style="text-align: center">HTML tutorial by internet</footer>
+ </div>
+</div>
+</body>
+</html>

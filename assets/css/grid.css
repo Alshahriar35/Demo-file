@@ -1,0 +1,35 @@
+.grid-container{
+display: grid;
+grid-template-columns: 20% auto 20%;
+grid-auto-rows: minmax(100px, auto);
+grid-template-rows: 100px 800px;
+grid-row-gap: 20px;
+grid-column-gap: 20px;
+grid-template-areas:
+'h h h'
+'s m a'
+/*'f f f'*/;
+}
+
+.grid-item{
+	width: 100%;
+	border: 1px solid black;
+    background-color: grey;
+}
+
+#header{
+   grid-area: h;
+}
+#sidebar{
+  grid-area: s;
+}
+#main{
+  grid-area: m;
+} 
+#aside{
+  grid-area: a;
+}
+#footer{
+/*  grid-area: f;*/
+grid-area: 3 / 1 / 4 / span 3 ;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/style1.css">
+</head>
+<body>
+  <main>
+	<div class="wrapper">
+		<div class="header">
+		 <header>
+            <nav class="header">
+            	<picture class="logo">
+                  <source media="(min-width:650px)" srcset="assets/img/logo2.jpg">
+                  <source media="(min-width:465px)" srcset="assets/img/logo1.png">
+                  <img src="assets/img/logo.png" alt="logo" width="40px" height="40px" width="auto">
+                </picture>
+                <h1 class="title"><dfn id="top">Navigation</dfn> Menu</h1>
+                <ul class="navigation">
+                  <li><a href="homepage.html">homepage</a></li>
+                  <li><a href="menu.html">menu</a></li>
+                  <li><a href="about.html">about us</a></li> 
+                </ul>
+            </nav>
+         </header>
+        </div>
+         <article>
+        <div class="content">
+            <section class="table">
+            	<div id="table">
+            	  <blockquote>
+            	   <table>
+		                <caption>A generic table</caption>
+		                    <colgroup>
+			                 <col span="2" style="background-color: red">
+			                 <col span="2" style="background-color: yellow">
+		                    </colgroup>
+		                <thead>
+		                    <tr>
+			                  <th>Serial no</th>
+			                  <th>Item</th>
+			                  <th>colour</th>
+			                  <th>amount</th>
+		                    </tr>
+		                </thead>
+		                <tbody>
+		                    <tr>
+			                  <td>1</td>
+			                  <td>shirt</td>
+			                  <td>red</td>
+			                  <td>3</td>
+		                    </tr>
+		                </tbody>
+		                <tbody>
+		                    <tr>
+			                  <td>2</td>
+			                  <td>Pants</td>
+			                  <td>blue</td>
+			                  <td>6</td>
+		                    </tr>
+		                </tbody>
+		                <tfoot>
+		                    <tr>
+			                  <td>x</td>
+			                  <td>total</td>
+			                  <td>amount</td>
+			                  <td>9</td>
+		                    </tr>
+		                </tfoot>
+	                </table>
+	               </blockquote>
+	                <blockquote>
+	                	<b>Bold text</b><br>
+                        <strong>Important text</strong><br>
+                        <i>Italic text</i><br>
+                        <em>Emphasized text</em><br>
+                        <mark>Marked text</mark><br>
+                        <small>Smaller text</small><br>
+                        <del>Deleted text</del><br>
+                        <ins>Inserted text</ins><br>
+                        <sub>Subscript text</sub><br>
+                        <sup>Superscript text</sup><br>
+	                </blockquote>
+            	</div>
+            </section>
+
+            <section class="media">
+            	<div id="media">
+            		<figure>
+                       <img src="assets/img/logo.png" alt="Trulli" height="100" width="100">
+                       <figcaption>Fig.1 Our logo</figcaption>
+                    </figure>
+                    <figure>
+                     <audio controls>
+                       <source src="assets/media/audio1.mp3" type="audio/ogg">
+                       <source src="assets/media/audio1.mp3" type="audio/mpeg">
+                       Your browser does not support the audio tag.
+                     </audio>
+                     <figcaption>This is an audio</figcaption>
+                    </figure>
+                    <figure>
+                      <video width="320" height="180" controls autoplay muted>
+                        <source src="assets/media/video1.mp4" type="video/mp4">
+                        <source src="assets/media/video1.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                      <figcaption>This is a video</figcaption>
+                    </figure>
+                    <figure>
+                      <iframe src="assets/doc/homemap.html" frameborder="1" title="our location" width="350" height="250"></iframe>
+                      <figcaption> <a href="" title="Please visit us">This is our home location</a> </figcaption>
+                    <figure>
+                    <details style="width: 40%">
+                    	<summary>Click to know Address</summary>
+                    	<p>We live in a well developed area.where we have easy access to every facility</p>
+                    	<address>
+                    	 460/1, South Kafrul Dhaka-1206	
+                    	</address>
+                    </details>
+            	</div>
+            </section>
+
+            <section class="map">
+            	<div id="map">
+            		<figure>
+            		      <img src="assets/img/technology.jpg" alt="Workplace" usemap="#workmap" width="587" height="321">
+            		      <figcaption><span title="Click on the image to learn more">fig.2-Technology</span></figcaption>
+            		</figure>
+
+                    <map name="workmap">
+                      <area shape="rect" coords="53,43,112,118" alt="smartwatch" href="smartwatch.htm" title="smartwatch">
+                      <area shape="rect" coords="233,51,344,120" alt="tab" href="tab.htm" title="tab">
+                      <area shape="circle" coords="90,270,30" alt="speaker" href="speaker.htm" title="speaker">
+                    </map><br><br>
+                    	<label for="satisfaction">our customer satisfaction:</label>
+                        <meter id="satisfaction" value="8" max="10">8 out of 10</meter><br><br>
+                        <label for="service">Our service value</label>
+                        <meter id="service" value="0.9" optimum="0.5">60%</meter><br><br>
+                        <label for="file">our progress</label>
+                        <progress id="file" value="32" max="100"> 32% </progress>
+            	</div>
+            </section>
+
+         </article>
+        <div>
+        <div class="content">
+         <aside>
+         	<h2>Registration form</h2>
+         	<form action="/action_page.php" method="get">
+         	 <fieldset>
+         	  <legend>Personalia:</legend>
+              <label for="fname" placeholder="Please input value">First name:</label>
+              <input type="text" id="fname" name="fname" placeholder="Please input value"><br><br>
+              <label for="color">Favourite color:</label>
+              <input type="color" id="color" name="color" placeholder="Please input value"><br><br>
+              <label for="date">Birthdate:</label>
+              <input type="date" id="date" name="date" placeholder="Please input value"><br><br>
+              <label for="datetime-local">Birthtime:</label>
+              <input type="datetime-local" id="datetime-local" name="datetime-local" placeholder="Please input value"><br><br>
+              <label for="email">Input E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Please input value"><br><br>
+              <label for="file">upload certificate:</label>
+              <input type="file" id="file" name="file" placeholder="Please input value"><br><br>
+              <label for=""></label>
+              <input type="hidden" id="hidden" name="hidden" placeholder="Please input value"><br><br>
+              <!-- <label for="image" src="assets/doc/homemap.html">map</label>
+              <input type="image" id="image" name="image" placeholder="Please input value"><br><br> -->
+              <label for="month">preferred reg date</label>
+              <input type="month" id="month" name="month" placeholder="Please input value"><br><br>
+              <label for="number">favourite number</label>
+              <input type="number" id="number" name="number" placeholder="Please input value"><br><br>
+              <label for="password">input password:</label>
+              <input type="password" id="password" name="password" placeholder="Please input value"><br><br>
+              <label for="range">happy</label>
+              <input type="range" id="range" name="range" placeholder="Please input value">sad<br><br>
+              <label for="search"></label>
+              <input type="search" id="search" name="search" placeholder="Please input value"><br><br>
+              <label for="tel">personal contact</label>
+              <input type="tel" id="tel" name="tel" placeholder="Please input value"><br><br>
+              <label for="time">local time</label>
+              <input type="time" id="time" name="time" placeholder="Please input value"><br><br>
+              <label for="week">week:</label>
+              <input type="week" id="week" name="week" placeholder="Please input value"><br><br>
+              <label for="facebook url"></label>
+              <input type="url" id="url" name="url" placeholder="Please input value"><br><br>
+              <p>
+              	 <input type="checkbox" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> I have a bike</label><br>
+                 <input type="checkbox" name="vehicle2" value="Car">
+                 <label for="vehicle2"> I have a car</label><br>
+                 <input type="checkbox" name="vehicle3" value="Boat" checked>
+                 <label for="vehicle3"> I have a boat</label>
+              </p>
+              <p>
+              	<label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                  <optgroup label="Swedish cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                  </optgroup>
+                  <optgroup label="German cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </optgroup>
+                </select>
+              </p>
+              <p>
+              	<label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                 <option value="Edge">
+                 <option value="Firefox">
+                 <option value="Chrome">
+                 <option value="Opera">
+                 <option value="Safari">
+                </datalist>
+              </p>
+              <p>
+              	 <input type="radio" id="male" name="gender" value="male">
+                 <label for="male">Male</label><br>
+                 <input type="radio" id="female" name="gender" value="female" checked="checked">
+                 <label for="female">Female</label><br>
+                 <input type="radio" id="other" name="gender" value="other">
+                 <label for="other">Other</label>
+              </p>
+              <label for="reset"></label>
+              <input type="reset" id="reset" name="reset" placeholder="Please input value"><br><br>
+              <input type="submit" value="Submit" placeholder="Please input value"><br><br>
+              <label for="terms">terms and conditions</label>
+              <textarea name="terms" id="terms" cols="30" rows="10">
+              		Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque delectus distinctio nulla reiciendis, a, aut tempora. Facilis nulla quis aliquam dolores dicta magnam sed explicabo tempore labore aliquid architecto excepturi, atque sapiente, eaque. Iusto doloremque ipsa atque fugit labore, eos dolorum, sit illum cupiditate sunt tempore quod! Tempore, rerum, nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, ipsa.
+              </textarea><br><br>
+              <h3>which is our logo</h3>
+              <button type="logo1"><img src="assets/img/logo.png" alt="" width="200" height="200"></button>
+              <button type="logo2"><img src="assets/img/technology.jpg" alt="" width="200" height="200"></button><br><br>
+             </fieldset>
+            </form>
+         </aside>
+        </div>
+        <dd><a href="#top">Top</a></dd>
+        <hr>
+        <div class="footer">
+         <footer>
+         	 <ul>
+                 <li><a href="Contact.html">Contact</a></li>
+                 <li><a href="Donate.html">Donate</a></li>
+                 <li><a href="Patreon.html">Patreon</a></li>
+             </ul>
+         </footer>
+        </div>	
+	</div>
+  </main>
+</body>
+</html>

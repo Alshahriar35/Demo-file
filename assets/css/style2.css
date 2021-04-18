@@ -1,0 +1,183 @@
+
+body{
+	background-image: url(E:/pexels-pixabay-38537.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	margin: 2px;
+}
+
+
+.header{
+	background-color: yellow;
+	margin: 0;
+	max-height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.navigation a, li{
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	padding:5px;
+	border: 1px;
+	border-collapse: collapse; 
+	margin: 3px;
+}
+.navigation a:hover {
+  background: red;
+  color: white;
+}
+
+/*container*/
+
+
+.container{
+	min-height: 1300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+}
+#body{
+	max-height: 950px;
+}
+#foot{
+	min-height: 100px;
+}
+
+.layout{
+	width: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+    justify-content: space-between;
+}
+
+#article{
+	min-width: 50%;
+}
+#aside{
+	min-width: 50%;
+}
+
+.line-1{
+	display: inline-block;
+}
+#line-2{
+	display: inline-block;
+}
+.line-3{
+	display: inline-block !important;
+}
+.line-4{
+	display: inline-block;
+}
+.line-5{
+	display: inline-block;
+}
+
+.right#color{
+	position: absolute;
+	right: 8px;
+	top: 210px;
+}
+.right#colorn{
+	position: absolute;
+	right: 8px;
+	top: 191px;
+}
+.right#datetime-localn{
+	position: absolute;
+	right: 8px;
+	top: 255px;
+}
+.right#datetime-local{
+	position: absolute;
+	right: 8px;
+	top: 275px;
+}
+.right#teln{
+	position: absolute;
+	right: 8px;
+	top: 335px;
+}
+.right#tel{
+	position: absolute;
+	right: 8px;
+	top: 355px;
+}
+.right#urln{
+	position: absolute;
+	right: 8px;
+	top: 415px;
+}
+.right#url{
+	position: absolute;
+	right: 8px;
+	top: 435px;
+}
+.right#weekn{
+	position: absolute;
+	right: 8px;
+	top: 495px;
+}
+.right#week{
+	position: absolute;
+	right: 8px;
+	top: 515px;
+}
+.right#timen{
+	position: absolute;
+	right: 8px;
+	top: 580px;
+}
+.right#time{
+	position: absolute;
+	right: 8px;
+	top: 600px;
+}
+.line-4#browser{
+	position: absolute;
+	right: 8px;
+	/*top: 600px;*/
+}
+.line-5#gender{
+	position: absolute;
+	right: 8px;
+	/*top: 600px;*/
+}
+/*.right#rangen{
+	position: absolute;
+	right: 8px;
+	/*top: 600px;*/
+
+/*.right#range{
+	position: absolute;
+	right: 0px;
+	top: 700px;
+}*/
+/*footer*/
+
+
+.footer{
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+
+}
+a,li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	padding:5px;
+	margin: 3px;
+	color: white;
+}
+#f4 a,li{
+    color: red !important;
+}
